@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double m1, m2, m3;
+    cout << "Nhap luong mua 3 thang: ";
+    cin >> m1 >> m2 >> m3;
+
+    cout << fixed << setprecision(2);
+    cout << "Trung binh = " << (m1+m2+m3)/3;
+    return 0;
+}

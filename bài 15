@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double org = 52;
+    double discount = 0.30;
+
+    double salePrice = org - org * discount;
+
+    cout << fixed << setprecision(2);
+    cout << "Gia ban = $" << salePrice;
+    return 0;
+}

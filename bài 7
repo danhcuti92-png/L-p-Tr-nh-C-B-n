@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double rise = 1.5;
+
+    cout << "5 nam: " << 5 * rise << " mm\n";
+    cout << "7 nam: " << 7 * rise << " mm\n";
+    cout << "10 nam: " << 10 * rise << " mm\n";
+    return 0;
+}

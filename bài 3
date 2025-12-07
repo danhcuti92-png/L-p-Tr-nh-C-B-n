@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double cost = 95;
+    double stateTax = 0.04;
+    double countyTax = 0.02;
+
+    double totalTax = cost * (stateTax + countyTax);
+
+    cout << fixed << setprecision(2);
+    cout << "Tong thue = $" << totalTax;
+    return 0;
+}

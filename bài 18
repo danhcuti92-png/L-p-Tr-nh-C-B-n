@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double width, length;
+    cout << "Nhap width, length: ";
+    cin >> width >> length;
+
+    cout << "Area = " << width * length;
+    return 0;
+}

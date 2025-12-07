@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,c;
+    cout << "Nhap 3 diem: ";
+    cin >> a >> b >> c;
+
+    cout << "Tong = " << a+b+c;
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double percent = 0.58;
+    double sales = 8.6e6;
+
+    double result = percent * sales;
+
+    cout << fixed << setprecision(2);
+    cout << "Doanh so uoc tinh = $" << result;
+    return 0;
+}

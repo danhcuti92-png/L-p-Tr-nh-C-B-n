@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double m, a;
+    cout << "Nhap khoi luong va gia toc: ";
+    cin >> m >> a;
+
+    cout << "Luc F = " << m * a;
+    return 0;
+}

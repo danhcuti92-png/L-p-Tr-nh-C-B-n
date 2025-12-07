@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double tank = 20;
+    double city = 23.5;
+    double highway = 28.9;
+
+    cout << "City range = " << tank * city << " miles\n";
+    cout << "Highway range = " << tank * highway << " miles\n";
+    return 0;
+}

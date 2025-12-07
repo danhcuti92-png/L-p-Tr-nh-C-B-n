@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double pay = 2200;
+    int periods = 26;
+
+    double total = pay * periods;
+
+    cout << fixed << setprecision(2);
+    cout << "Luong nam = $" << total;
+    return 0;
+}

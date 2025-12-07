@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double meal = 88.67;
+    double tax = meal * 0.0675;
+    double tip = (meal + tax) * 0.20;
+    double total = meal + tax + tip;
+
+    cout << fixed << setprecision(2);
+    cout << "Total bill = $" << total;
+    return 0;
+}

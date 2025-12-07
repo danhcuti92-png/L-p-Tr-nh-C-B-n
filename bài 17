@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double C;
+    cout << "Nhap do C: ";
+    cin >> C;
+
+    double F = C * 9 / 5 + 32;
+
+    cout << fixed << setprecision(2);
+    cout << "Do F = " << F;
+    return 0;
+}

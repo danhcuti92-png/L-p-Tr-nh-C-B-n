@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double r;
+    cout << "Nhap ban kinh: ";
+    cin >> r;
+
+    double area = 3.14159 * r * r;
+
+    cout << "Area = " << area;
+    return 0;
+}

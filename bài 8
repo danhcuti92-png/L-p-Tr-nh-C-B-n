@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double p1=15.59, p2=24.59, p3=6.59, p4=12.59, p5=3.59;
+
+    double subtotal = p1+p2+p3+p4+p5;
+    double tax = subtotal * 0.07;
+    double total = subtotal + tax;
+
+    cout << fixed << setprecision(2);
+    cout << "Total = $" << total;
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    int a=300, b=600, c=1000;
+    double pa=15, pb=12, pc=9;
+
+    double total = a*pa + b*pb + c*pc;
+
+    cout << fixed << setprecision(2);
+    cout << "Doanh thu = $" << total;
+    return 0;
+}
